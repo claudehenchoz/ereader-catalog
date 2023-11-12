@@ -161,12 +161,18 @@
                 //uniqueOperatingSystems: [] // To store unique operating systems
             },
             mounted() {
-                fetch('ereaders.json') // Load the JSON data
-                    .then(response => response.json())
-                    .then(data => {
-                        this.readers = data.data;
-                        this.uniqueOperatingSystems = [...new Set(data.data.map(reader => reader.operating_system))];
-                    });
+              const queryParams = new URLSearchParams(window.location.search);
+              queryParams.forEach((value, key) => {
+                if (this.filters.hasOwnProperty(key)) {
+                  this.filters[key] = value;
+                }
+              });
+              fetch('ereaders.json') // Load the JSON data
+                .then(response => response.json())
+                .then(data => {
+                  this.readers = data.data;
+                  this.uniqueOperatingSystems = [...new Set(data.data.map(reader => reader.operating_system))];
+                });
             },
             computed: {
                 filteredReaders() {
@@ -204,8 +210,25 @@
               calculateHeight(length) {
                   const scaleFactor = 0.4; // Adjust this scale factor as needed
                   return length ? length * scaleFactor : 2; // Default height if null
+              },
+              updateURL() {
+                const queryParams = new URLSearchParams();
+                for (const key in this.filters) {
+                    if (this.filters[key]) {
+                        queryParams.set(key, this.filters[key]);
+                    }
+                }
+                window.history.replaceState({}, '', `${window.location.pathname}?${queryParams}`);
+              },
+            },
+            watch: {
+              filters: {
+                  handler() {
+                      this.updateURL();
+                  },
+                  deep: true
               }
-            }
+          }
             
         });
     </script>
