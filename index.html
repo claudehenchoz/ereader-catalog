@@ -58,9 +58,75 @@
             <div class="card" v-for="reader in filteredReaders">
                 <h3>{{ reader.device_name }}</h3>
                 <div class="ereader-rectangle" :style="{ width: calculateWidth(reader.dimensions_width_mm) + 'px', height: calculateHeight(reader.dimensions_length_mm) + 'px' }"></div>
-                <p><strong>Screen Size:</strong> {{ reader.screen_size_inches }} inches</p>
-                <p><strong>OS:</strong> {{ reader.operating_system }}</p>
-                <!-- Display all other properties -->
+
+                <table>
+                    <tr>
+                      <td><strong>Screen Size:</strong></td>
+                      <td>{{ reader.screen_size_inches }} inches</td>
+                    </tr>
+                    <tr>
+                      <td><strong>Dimensions:</strong></td>
+                      <td>{{ reader.dimensions_length_mm }} x {{ reader.dimensions_width_mm }} x {{ reader.dimensions_depth_mm }} mm</td>
+                    </tr>
+                    <tr>
+                      <td><strong>Weight:</strong></td>
+                      <td>{{ reader.weight_g }} g</td>
+                    </tr>
+                    <tr>
+                      <td><strong>Pixels Per Inch:</strong></td>
+                      <td>{{ reader.pixels_per_inch }}</td>
+                    </tr>
+                    <tr>
+                      <td><strong>Storage Capacity:</strong></td>
+                      <td>{{ reader.storage_capacity_gb }} GB</td>
+                    </tr>
+                    <tr>
+                      <td><strong>RAM:</strong></td>
+                      <td>{{ reader.ram_mb }} MB</td>
+                    </tr>
+                    <tr>
+                      <td><strong>Operating System:</strong></td>
+                      <td>{{ reader.operating_system }}</td>
+                    </tr>
+                    <tr>
+                      <td><strong>Processor:</strong></td>
+                      <td>{{ reader.processor }}</td>
+                    </tr>
+                    <tr>
+                      <td><strong>Display Technology:</strong></td>
+                      <td>{{ reader.display_technology }}</td>
+                    </tr>
+                    <tr>
+                      <td><strong>Google Play Support:</strong></td>
+                      <td>{{ reader.google_play_support ? 'Yes' : 'No' }}</td>
+                    </tr>
+                    <tr>
+                      <td><strong>Page Turn Buttons:</strong></td>
+                      <td>{{ reader.page_turn_buttons ? 'Yes' : 'No' }}</td>
+                    </tr>
+                    <tr>
+                      <td><strong>Display Light:</strong></td>
+                      <td>{{ reader.display_light ? 'Yes' : 'No' }}</td>
+                    </tr>
+                    <tr>
+                      <td><strong>SD Card Slot:</strong></td>
+                      <td>{{ reader.sd_card_slot ? 'Yes' : 'No' }}</td>
+                    </tr>
+                    <tr>
+                      <td><strong>Speaker:</strong></td>
+                      <td>{{ reader.speaker ? 'Yes' : 'No' }}</td>
+                    </tr>
+                    <tr>
+                      <td><strong>Color E-Ink Support:</strong></td>
+                      <td>{{ reader.color_eink_support ? 'Yes' : 'No' }}</td>
+                    </tr>
+                    <tr>
+                      <td><strong>Released:</strong></td>
+                      <td>{{ reader.released }}</td>
+                    </tr>
+                  </table>
+                  
+
                 <a :href="reader.url" target="_blank">More Info</a>
             </div>
         </div>
