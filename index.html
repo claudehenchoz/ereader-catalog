@@ -36,6 +36,12 @@
             <input type="range" id="screen-size-range-max" v-model="filters.screen_size_inches_max" min="0" max="14" step="0.1">
             <span class="range-values">{{ filters.screen_size_inches_min }} - {{ filters.screen_size_inches_max }} inches</span>
 
+            <label for="vendor-dropdown">Vendor:</label>
+            <select id="vendor-dropdown" v-model="filters.vendor">
+                <option value="">Any Vendor</option>
+                <option v-for="vendor in uniqueVendors" :value="vendor">{{ vendor }}</option>
+            </select>
+
             <label for="os-dropdown">Operating System:</label>
             <select id="os-dropdown" v-model="filters.operating_system">
                 <option value="">Any OS</option>
@@ -181,12 +187,13 @@
                         const screen_size_filter = reader.screen_size_inches >= this.filters.screen_size_inches_min &&
                                                    reader.screen_size_inches <= this.filters.screen_size_inches_max;
                         const os_filter = this.filters.operating_system === '' || reader.operating_system === this.filters.operating_system;
+                        const vendor_filter = this.filters.vendor === '' || reader.vendor === this.filters.vendor;
                         const page_turn_buttons_filter = this.filters.page_turn_buttons === null || 
                                                          reader.page_turn_buttons === this.filters.page_turn_buttons;
                         const google_play_support_filter = this.filters.google_play_support === null || 
                                                          reader.google_play_support === this.filters.google_play_support;
             
-                        return screen_size_filter && os_filter && page_turn_buttons_filter && google_play_support_filter;
+                        return screen_size_filter && vendor_filter && os_filter && page_turn_buttons_filter && google_play_support_filter;
                     });
                 },
                 creditCardWidth() {
@@ -201,6 +208,11 @@
                   const allOperatingSystems = this.readers.map(reader => reader.operating_system);
                   const uniqueOperatingSystems = [...new Set(allOperatingSystems)];
                   return uniqueOperatingSystems.sort();
+                },
+                uniqueVendors() {
+                  const allVendors = this.readers.map(reader => reader.vendor);
+                  const uniqueVendors = [...new Set(allVendors)];
+                  return uniqueVendors.sort();
                 },
             },
             methods: {
@@ -235,23 +247,3 @@
     </script>
 </body>
 </html>
-
-
-
-
-<script src="https://cdn.jsdelivr.net/npm/vue@2.7.15/dist/vue.min.js"></script>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
