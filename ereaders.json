@@ -2,7 +2,8 @@
     "data": [
 
         {
-            "device_name": "Onyx Boox Tab Ultra C Pro",
+            "device_name": "Tab Ultra C Pro",
+            "vendor": "Onyx Boox",
             "screen_size_inches": 10.3,
             "dimensions_length_mm": 225,
             "dimensions_width_mm": 184.5,
@@ -24,7 +25,8 @@
             "url": "https://goodereader.com/blog/reviews/onyx-boox-tab-ultra-c-pro-e-note-review"
         },
         {
-            "device_name": "Onyx Boox Note Air 3C",
+            "device_name": "Note Air 3C",
+            "vendor": "Onyx Boox",
             "screen_size_inches": 10.3,
             "dimensions_length_mm": 226,
             "dimensions_width_mm": 193,
@@ -178,7 +180,8 @@
             "url": "https://goodereader.com/blog/reviews/read-em-and-weep-bigme-read-e-reader-review"
         },
         {
-            "device_name": "Onyx Boox Palma",
+            "device_name": "Palma",
+            "vendor": "Onyx Boox",
             "screen_size_inches": 6.13,
             "dimensions_length_mm": 159,
             "dimensions_width_mm": 80,
@@ -288,7 +291,8 @@
             "url": "https://goodereader.com/blog/reviews/barnes-and-noble-nook-glowlight-4-plus-e-reader-review"
         },
         {
-            "device_name": "Onyx Boox Tab Mini C",
+            "device_name": "Tab Mini C",
+            "vendor": "Onyx Boox",
             "screen_size_inches": 7.8,
             "dimensions_length_mm": 194,
             "dimensions_width_mm": 136.5,
@@ -310,7 +314,8 @@
             "url": "https://goodereader.com/blog/reviews/onyx-boox-tab-mini-c-kaleido-3-color-e-note-and-e-reader-review"
         },
         {
-            "device_name": "Onyx Boox Page",
+            "device_name": "Page",
+            "vendor": "Onyx Boox",
             "screen_size_inches": 7,
             "dimensions_length_mm": 156,
             "dimensions_width_mm": 137,
@@ -508,7 +513,8 @@
             "url": "https://goodereader.com/blog/tablet-slates/good-e-reader-x-bigme-galy-with-gallery-3-display-the-best-8-inch-e-note-a-review"
         },
         {
-            "device_name": "Onyx Boox Poke 5",
+            "device_name": "Poke 5",
+            "vendor": "Onyx Boox",
             "screen_size_inches": 6,
             "storage_capacity_gb": 32,
             "pixels_per_inch": 300,
@@ -545,7 +551,8 @@
             "url": "https://goodereader.com/blog/reviews/the-2023-ireader-ocean-3-e-reader-a-kindle-oasis-killer-a-review"
         },
         {
-            "device_name": "Onyx Boox Tab Ultra C",
+            "device_name": "Tab Ultra C",
+            "vendor": "Onyx Boox",
             "screen_size_inches": 10.3,
             "dimensions_length_mm": 225,
             "dimensions_width_mm": 184.5,
@@ -721,7 +728,8 @@
             "url": "https://goodereader.com/blog/reviews/hands-on-review-of-the-gaze-one-c-color-e-reader"
         },
         {
-            "device_name": "Onyx Boox Tab X",
+            "device_name": "Tab X",
+            "vendor": "Onyx Boox",
             "screen_size_inches": 13.3,
             "dimensions_length_mm": 310,
             "dimensions_width_mm": 228,
@@ -853,7 +861,8 @@
             "url": "https://goodereader.com/blog/electronic-readers/hands-on-review-of-the-amazon-kindle-scribe"
         },
         {
-            "device_name": "Onyx Boox Tab Ultra",
+            "device_name": "Tab Ultra",
+            "vendor": "Onyx Boox",
             "screen_size_inches": 10.3,
             "dimensions_length_mm": 225,
             "dimensions_width_mm": 184,
@@ -875,7 +884,8 @@
             "url": "https://goodereader.com/blog/reviews/onyx-boox-tab-ultra-hands-on-review"
         },
         {
-            "device_name": "Onyx Boox Nova Air 2",
+            "device_name": "Nova Air 2",
+            "vendor": "Onyx Boox",
             "screen_size_inches": 7.8,
             "dimensions_length_mm": 194,
             "dimensions_width_mm": 136,
@@ -897,7 +907,8 @@
             "url": "https://goodereader.com/blog/electronic-readers/hands-on-review-of-the-onyx-boox-nova-air-2"
         },
         {
-            "device_name": "Onyx Boox Leaf 2",
+            "device_name": "Leaf 2",
+            "vendor": "Onyx Boox",
             "screen_size_inches": 7,
             "dimensions_length_mm": 156,
             "dimensions_width_mm": 137,
@@ -1183,7 +1194,8 @@
             "url": "https://goodereader.com/blog/reviews/barnes-and-noble-nook-glowlight-4e-e-reader-review"
         },
         {
-            "device_name": "Onyx Boox Poke 4 Lite",
+            "device_name": "Poke 4 Lite",
+            "vendor": "Onyx Boox",
             "screen_size_inches": 6,
             "dimensions_length_mm": 153,
             "dimensions_width_mm": 107.2,
@@ -1249,7 +1261,8 @@
             "url": "https://goodereader.com/blog/reviews/hands-on-review-of-the-xiaomi-inkpalm-plus-e-reader"
         },
         {
-            "device_name": "Onyx Boox Note Air 2 Plus",
+            "device_name": "Note Air 2 Plus",
+            "vendor": "Onyx Boox",
             "screen_size_inches": 10.3,
             "dimensions_length_mm": 229.4,
             "dimensions_width_mm": 195.4,
@@ -1359,7 +1372,8 @@
             "url": "https://goodereader.com/blog/electronic-readers/bigme-b1-pro-max-color-review-the-best-kaleido-plus-e-note"
         },
         {
-            "device_name": "Onyx Boox Nova Air Color",
+            "device_name": "Nova Air Color",
+            "vendor": "Onyx Boox",
             "screen_size_inches": 7.8,
             "dimensions_length_mm": 194,
             "dimensions_width_mm": 136.5,
@@ -1469,7 +1483,8 @@
             "url": "https://goodereader.com/blog/reviews/haoqing-meebook-p78-pro-e-note-and-e-reader-review"
         },
         {
-            "device_name": "Onyx Boox Poke 3 Special Edition",
+            "device_name": "Poke 3 Special Edition",
+            "vendor": "Onyx Boox",
             "screen_size_inches": 6,
             "dimensions_length_mm": null,
             "dimensions_width_mm": null,
@@ -1535,7 +1550,8 @@
             "url": "https://goodereader.com/blog/reviews/xiaomi-inkpalm-5-mini-2nd-generation-review"
         },
         {
-            "device_name": "Onyx Boox Note 5",
+            "device_name": "Note 5",
+            "vendor": "Onyx Boox",
             "screen_size_inches": 10.3,
             "dimensions_length_mm": 0,
             "dimensions_width_mm": 0,
@@ -1601,7 +1617,8 @@
             "url": "https://goodereader.com/blog/reviews/tolino-vision-6-e-reader-review"
         },
         {
-            "device_name": "Onyx Boox Leaf",
+            "device_name": "Leaf",
+            "vendor": "Onyx Boox",
             "screen_size_inches": 7,
             "dimensions_length_mm": null,
             "dimensions_width_mm": null,
@@ -1667,7 +1684,8 @@
             "url": "https://goodereader.com/blog/reviews/bigme-b1-pro-plus-color-e-ink-writing-slate-review"
         },
         {
-            "device_name": "Onyx Boox Note Air 2",
+            "device_name": "Note Air 2",
+            "vendor": "Onyx Boox",
             "screen_size_inches": 10.3,
             "dimensions_length_mm": 229.4,
             "dimensions_width_mm": 195.4,
@@ -1821,7 +1839,8 @@
             "url": "https://goodereader.com/blog/reviews/pocketbook-inkpad-lite-hands-on-review"
         },
         {
-            "device_name": "Onyx Boox Nova Air",
+            "device_name": "Nova Air",
+            "vendor": "Onyx Boox",
             "screen_size_inches": 7.8,
             "dimensions_length_mm": 194,
             "dimensions_width_mm": 136.5,
@@ -2129,7 +2148,8 @@
             "url": "https://goodereader.com/blog/reviews/bigme-s3-color-e-reader-and-e-note-review"
         },
         {
-            "device_name": "Onyx Boox Nova 3 Color",
+            "device_name": "Nova 3 Color",
+            "vendor": "Onyx Boox",
             "screen_size_inches": 7.8,
             "dimensions_length_mm": 196,
             "dimensions_width_mm": 137,
@@ -2327,7 +2347,8 @@
             "url": "https://goodereader.com/blog/reviews/pocketbook-touch-hd-3-limited-edition-review"
         },
         {
-            "device_name": "Onyx Boox Nova 3",
+            "device_name": "Nova 3",
+            "vendor": "Onyx Boox",
             "screen_size_inches": 7.8,
             "dimensions_length_mm": 196,
             "dimensions_width_mm": 137,
@@ -2349,7 +2370,8 @@
             "url": "https://goodereader.com/blog/reviews/onyx-boox-nova-3-review"
         },
         {
-            "device_name": "Onyx Boox Poke 2 Color",
+            "device_name": "Poke 2 Color",
+            "vendor": "Onyx Boox",
             "color_eink_support": true,
             "screen_size_inches": 6,
             "dimensions_length_mm": 153,
@@ -2371,7 +2393,8 @@
             "url": "https://goodereader.com/blog/reviews/hands-on-review-of-the-onyx-boox-poke-2-color"
         },
         {
-            "device_name": "Onyx Boox Poke 3",
+            "device_name": "Poke 3",
+            "vendor": "Onyx Boox",
             "screen_size_inches": 6,
             "dimensions_length_mm": null,
             "dimensions_width_mm": null,
@@ -2393,7 +2416,8 @@
             "url": "https://goodereader.com/blog/reviews/onyx-boox-poke-3-e-reader-review"
         },
         {
-            "device_name": "Onyx Boox Note 3",
+            "device_name": "Note 3",
+            "vendor": "Onyx Boox",
             "screen_size_inches": 10.3,
             "dimensions_length_mm": 249.5,
             "dimensions_width_mm": 177,
@@ -2415,7 +2439,8 @@
             "url": "https://goodereader.com/blog/reviews/onyx-boox-note-3-hands-on-review"
         },
         {
-            "device_name": "Onyx Boox Note Air",
+            "device_name": "Note Air",
+            "vendor": "Onyx Boox",
             "screen_size_inches": 10.3,
             "dimensions_length_mm": 229,
             "dimensions_width_mm": 195.4,
@@ -2452,7 +2477,8 @@
             "url": "https://goodereader.com/blog/reviews/supernote-a6x-hands-on-review"
         },
         {
-            "device_name": "Onyx Boox Max Lumi",
+            "device_name": "Max Lumi",
+            "vendor": "Onyx Boox",
             "screen_size_inches": 13.3,
             "dimensions_length_mm": 310,
             "dimensions_width_mm": 228,
@@ -2946,7 +2972,8 @@
             "url": "https://goodereader.com/blog/reviews/ireader-c6-color-e-ink-e-reader-review"
         },
         {
-            "device_name": "Onyx Boox Poke 2",
+            "device_name": "Poke 2",
+            "vendor": "Onyx Boox",
             "screen_size_inches": 6,
             "dimensions_length_mm": 153,
             "dimensions_width_mm": 107,
@@ -3012,7 +3039,8 @@
             "url": "https://goodereader.com/blog/reviews/dasung-paperlike-3-hd-review"
         },
         {
-            "device_name": "Onyx Boox Nova 2",
+            "device_name": "Nova 2",
+            "vendor": "Onyx Boox",
             "screen_size_inches": 7.8,
             "dimensions_length_mm": 196,
             "dimensions_width_mm": 137,
@@ -3034,7 +3062,8 @@
             "url": "https://goodereader.com/blog/reviews/onyx-boox-nova-2-e-reader-review"
         },
         {
-            "device_name": "Onyx Boox Nova Pro",
+            "device_name": "Nova Pro",
+            "vendor": "Onyx Boox",
             "screen_size_inches": 7.8,
             "dimensions_length_mm": null,
             "dimensions_width_mm": null,
@@ -3188,7 +3217,8 @@
             "url": "https://goodereader.com/blog/electronic-readers/pocketbook-touch-lux-4-limited-edition-review"
         },
         {
-            "device_name": "Onyx Boox Note 2",
+            "device_name": "Note 2",
+            "vendor": "Onyx Boox",
             "screen_size_inches": 10.3,
             "dimensions_length_mm": null,
             "dimensions_width_mm": null,
@@ -3285,7 +3315,8 @@
             "url": "https://goodereader.com/blog/electronic-readers/benq-e-reading-lamp-review"
         },
         {
-            "device_name": "Onyx Boox MAX3",
+            "device_name": "MAX3",
+            "vendor": "Onyx Boox",
             "screen_size_inches": 13.3,
             "dimensions_length_mm": null,
             "dimensions_width_mm": null,
@@ -3329,7 +3360,8 @@
             "url": "https://goodereader.com/blog/electronic-readers/hands-on-review-of-the-pocketbook-inkpad-3-pro"
         },
         {
-            "device_name": "Onyx Boox MAX 3",
+            "device_name": "MAX 3",
+            "vendor": "Onyx Boox",
             "screen_size_inches": 13.3,
             "dimensions_length_mm": 309.8,
             "dimensions_width_mm": 227.8,
@@ -3526,7 +3558,8 @@
             "url": "https://goodereader.com/blog/reviews/supernote-a5-e-reader-review"
         },
         {
-            "device_name": "Onyx Boox Note Pro",
+            "device_name": "Note Pro",
+            "vendor": "Onyx Boox",
             "screen_size_inches": 10.3,
             "dimensions_length_mm": 249.5,
             "dimensions_width_mm": 178.8,
@@ -3690,7 +3723,8 @@
             "url": "https://goodereader.com/blog/electronic-readers/the-boyue-likebook-mimas-is-great-at-digital-note-taking"
         },
         {
-            "device_name": "Onyx Boox MAX2 PRO",
+            "device_name": "MAX2 PRO",
+            "vendor": "Onyx Boox",
             "screen_size_inches": 13.3,
             "dimensions_length_mm": 325,
             "dimensions_width_mm": 237,
@@ -3756,7 +3790,8 @@
             "url": "https://goodereader.com/blog/electronic-readers/tolino-shine-3-e-reader-review"
         },
         {
-            "device_name": "Onyx Boox Nova",
+            "device_name": "Nova",
+            "vendor": "Onyx Boox",
             "screen_size_inches": 7.8,
             "dimensions_length_mm": null,
             "dimensions_width_mm": null,
@@ -3778,7 +3813,8 @@
             "url": "https://goodereader.com/blog/electronic-readers/onyx-boox-nova-unboxing-and-review"
         },
         {
-            "device_name": "Onyx Boox Poke",
+            "device_name": "Poke",
+            "vendor": "Onyx Boox",
             "screen_size_inches": 6,
             "processor": "quad-core 1.2GHz",
             "ram_mb": 1024,
@@ -3836,7 +3872,8 @@
             "url": "https://goodereader.com/blog/electronic-readers/kobo-forma-e-reader-review"
         },
         {
-            "device_name": "Onyx Boox Note Lite",
+            "device_name": "Note Lite",
+            "vendor": "Onyx Boox",
             "screen_size_inches": 10.3,
             "dimensions_length_mm": null,
             "dimensions_width_mm": null,
@@ -3880,7 +3917,8 @@
             "url": "https://goodereader.com/blog/electronic-readers/storytel-e-reader-review-2018"
         },
         {
-            "device_name": "Onyx Boox Note Plus",
+            "device_name": "Note Plus",
+            "vendor": "Onyx Boox",
             "screen_size_inches": 10.3,
             "dimensions_length_mm": 249.5,
             "dimensions_width_mm": 177.8,
@@ -4012,7 +4050,8 @@
             "url": "https://goodereader.com/blog/reviews/review-of-the-sony-digital-paper-dpt-cp1"
         },
         {
-            "device_name": "Onyx Boox Note S",
+            "device_name": "Note S",
+            "vendor": "Onyx Boox",
             "screen_size_inches": 9.7,
             "dimensions_length_mm": 249,
             "dimensions_width_mm": 177,
@@ -4078,7 +4117,8 @@
             "url": "https://goodereader.com/blog/reviews/hands-on-review-of-the-eonebook-dual-screen-manga-reader"
         },
         {
-            "device_name": "Onyx Boox Note",
+            "device_name": "Note",
+            "vendor": "Onyx Boox",
             "screen_size_inches": 10.3,
             "dimensions_length_mm": null,
             "dimensions_width_mm": null,
@@ -4122,7 +4162,8 @@
             "url": "https://goodereader.com/blog/electronic-readers/pocketbook-inkpad-3-ereader-review"
         },
         {
-            "device_name": "Onyx Boox MAX2 PRO",
+            "device_name": "MAX2 PRO",
+            "vendor": "Onyx Boox",
             "screen_size_inches": 13.3,
             "dimensions_length_mm": 325,
             "dimensions_width_mm": 237,
@@ -4508,7 +4549,8 @@
             "url": "https://goodereader.com/blog/electronic-readers/first-look-at-the-icarus-xl-hd"
         },
         {
-            "device_name": "Onyx Boox Max Carta",
+            "device_name": "Max Carta",
+            "vendor": "Onyx Boox",
             "screen_size_inches": 13.3,
             "dimensions_length_mm": null,
             "dimensions_width_mm": null,
@@ -5780,7 +5822,8 @@
             "url": "https://goodereader.com/blog/electronic-readers/hands-on-review-of-the-onyx-inkphone"
         },
         {
-            "device_name": "Onyx Boox Lynx",
+            "device_name": "Lynx",
+            "vendor": "Onyx Boox",
             "screen_size_inches": 6.8,
             "dimensions_length_mm": null,
             "dimensions_width_mm": null,
