@@ -59,7 +59,8 @@
         </div>
         <div class="container">
             <div class="card" v-for="reader in filteredReaders">
-                <h3>{{ reader.device_name }}</h3>
+              <div>{{ reader.vendor }}</div>
+              <div><b>{{ reader.device_name }}</b></div><br/>
                 <div style="display: flex; align-items: center; justify-content: center; width: 100%; height: 150px;">
                     <svg width="140" height="140" xmlns="http://www.w3.org/2000/svg">
                       <!-- E-reader rectangle -->
