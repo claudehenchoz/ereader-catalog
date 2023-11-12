@@ -63,10 +63,10 @@
                 <div style="display: flex; align-items: center; justify-content: center; width: 100%; height: 150px;">
                     <svg width="140" height="140" xmlns="http://www.w3.org/2000/svg">
                       <!-- E-reader rectangle -->
-                      <rect :x="creditCardWidth" :y="0" :width="calculateWidth(reader.dimensions_width_mm)" :height="calculateHeight(reader.dimensions_length_mm)" style="fill:lightblue; stroke:black; stroke-width:1" />
+                      <rect :x="creditCardWidth+1" :y="0" :width="calculateWidth(reader.dimensions_width_mm)" :height="calculateHeight(reader.dimensions_length_mm)" style="fill:lightblue; stroke:black; stroke-width:0.5" />
                       <!-- Credit card rectangle for comparison -->
-                      <rect x="0" y="0" :width="creditCardWidth" :height="creditCardHeight" style="fill:lightgrey; stroke:black; stroke-width:1" />
-                      <rect x="0" y="3" :width="creditCardWidth" :height="4" style="fill:black; stroke:black; stroke-width:1" />
+                      <rect x="0" y="0" :width="creditCardWidth" :height="creditCardHeight" style="fill:lightgrey; stroke:black; stroke-width:0" />
+                      <rect x="0" y="3" :width="creditCardWidth" :height="4" style="fill:black; stroke:black; stroke-width:0" />
                       <rect x="3" y="9.5" width="15" height="10" fill="silver" />
                       <circle cx="28" cy="14" r="5" fill="gold" />
                       <text x="26" y="16.7" fill="black" font-family="Arial" font-size="8px">$</text>
@@ -158,7 +158,7 @@
                     // Other range filters can be initialized here
                 },
                 readers: [], // This will be populated with the JSON data
-                uniqueOperatingSystems: [] // To store unique operating systems
+                //uniqueOperatingSystems: [] // To store unique operating systems
             },
             mounted() {
                 fetch('ereaders.json') // Load the JSON data
@@ -189,7 +189,12 @@
                 creditCardHeight() {
                     const scaleFactor = 0.4; // Adjust as needed
                     return 53.98 * scaleFactor;
-                }
+                },
+                uniqueOperatingSystems() {
+                  const allOperatingSystems = this.readers.map(reader => reader.operating_system);
+                  const uniqueOperatingSystems = [...new Set(allOperatingSystems)];
+                  return uniqueOperatingSystems.sort();
+                },
             },
             methods: {
               calculateWidth(width) {
