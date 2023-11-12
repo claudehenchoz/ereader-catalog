@@ -48,7 +48,8 @@
             "url": "https://goodereader.com/blog/reviews/hands-on-review-of-the-onyx-boox-note-air-3c-e-notebook"
         },
         {
-            "device_name": "Pocketbook Verse Pro",
+            "device_name": "Verse Pro",
+            "vendor": "PocketBook",
             "screen_size_inches": 6,
             "dimensions_length_mm": 156,
             "dimensions_width_mm": 108,
@@ -70,7 +71,8 @@
             "url": "https://goodereader.com/blog/reviews/pocketbook-verse-pro-e-reader-review"
         },
         {
-            "device_name": "Pocketbook Verse",
+            "device_name": "Verse",
+            "vendor": "PocketBook",
             "screen_size_inches": 6,
             "dimensions_length_mm": 156,
             "dimensions_width_mm": 108,
@@ -92,7 +94,8 @@
             "url": "https://goodereader.com/blog/reviews/pocketbook-verse-e-reader-review"
         },
         {
-            "device_name": "MobiScribe Wave - Color",
+            "device_name": "Wave - Color",
+            "vendor": "MobiScribe",
             "screen_size_inches": 7.8,
             "dimensions_length_mm": 193,
             "dimensions_width_mm": 148.3,
@@ -337,7 +340,8 @@
             "url": "https://goodereader.com/blog/reviews/onyx-boox-page-e-reader-review"
         },
         {
-            "device_name": "Pocketbook InkPad Color 2",
+            "device_name": "InkPad Color 2",
+            "vendor": "PocketBook",
             "screen_size_inches": 7.8,
             "dimensions_length_mm": 189.5,
             "dimensions_width_mm": 134,
@@ -447,7 +451,8 @@
             "url": "https://goodereader.com/blog/reviews/small-review-of-the-y-ben-gen-2-e-reader"
         },
         {
-            "device_name": "Pocketbook InkPad 4",
+            "device_name": "InkPad 4",
+            "vendor": "PocketBook",
             "screen_size_inches": 7.8,
             "dimensions_length_mm": 189.5,
             "dimensions_width_mm": 134,
@@ -840,6 +845,7 @@
         },
         {
             "device_name": "Kindle Scribe",
+            "vendor": "Amazon",
             "screen_size_inches": 10.2,
             "dimensions_length_mm": 230,
             "dimensions_width_mm": 196,
@@ -931,6 +937,7 @@
         },
         {
             "device_name": "Kindle (11th Gen)",
+            "vendor": "Amazon",
             "screen_size_inches": 6,
             "dimensions_length_mm": 157.8,
             "dimensions_width_mm": 108.6,
@@ -1150,7 +1157,8 @@
             "url": "https://goodereader.com/blog/reviews/hands-on-review-of-the-boyue-meebook-p10-pro-e-note"
         },
         {
-            "device_name": "Pocketbook Era",
+            "device_name": "Era",
+            "vendor": "PocketBook",
             "screen_size_inches": 7,
             "dimensions_length_mm": 134.3,
             "dimensions_width_mm": 155.7,
@@ -1506,7 +1514,8 @@
             "url": "https://goodereader.com/blog/reviews/onyx-boox-poke-3-special-edition-review"
         },
         {
-            "device_name": "Pocketbook Basic Lux 3",
+            "device_name": "Basic Lux 3",
+            "vendor": "PocketBook",
             "screen_size_inches": 6,
             "dimensions_length_mm": 161,
             "dimensions_width_mm": 108,
@@ -1708,6 +1717,7 @@
         },
         {
             "device_name": "Kindle Paperwhite 5 Signature Edition (11th Gen)",
+            "vendor": "Amazon",
             "screen_size_inches": 6.8,
             "storage_capacity_gb": 32,
             "dimensions_length_mm": 174,
@@ -1730,6 +1740,7 @@
         },
         {
             "device_name": "Kindle Paperwhite 5 (11th Gen)",
+            "vendor": "Amazon",
             "screen_size_inches": 6.8,
             "dimensions_length_mm": 174.2,
             "dimensions_width_mm": 124.6,
@@ -1817,7 +1828,8 @@
             "url": "https://goodereader.com/blog/reviews/boyue-lemon-read-review-a-great-e-reader-with-google-play"
         },
         {
-            "device_name": "Pocketbook InkPad Lite",
+            "device_name": "InkPad Lite",
+            "vendor": "PocketBook",
             "screen_size_inches": 9.7,
             "dimensions_length_mm": 236.2,
             "dimensions_width_mm": 173,
@@ -2215,7 +2227,8 @@
             "url": "https://goodereader.com/blog/reviews/hands-on-review-of-the-bigme-b1-pro-color-e-reader-and-e-note"
         },
         {
-            "device_name": "Pocketbook InkPad Color",
+            "device_name": "InkPad Color",
+            "vendor": "PocketBook",
             "screen_size_inches": 7.8,
             "dimensions_length_mm": 195,
             "dimensions_width_mm": 136,
@@ -2325,7 +2338,8 @@
             "url": "https://goodereader.com/blog/reviews/boyue-likebook-p6-e-reader-review"
         },
         {
-            "device_name": "Pocketbook Touch HD 3 Limited Edition",
+            "device_name": "Touch HD 3 Limited Edition",
+            "vendor": "PocketBook",
             "screen_size_inches": 6,
             "dimensions_length_mm": 161,
             "dimensions_width_mm": 108,
@@ -2566,7 +2580,8 @@
             "url": "https://goodereader.com/blog/electronic-readers/kaite-2-13-3-inch-battery-free-enote-review"
         },
         {
-            "device_name": "Pocketbook Basic 4",
+            "device_name": "Basic 4",
+            "vendor": "PocketBook",
             "screen_size_inches": 6,
             "dimensions_length_mm": 161.3,
             "dimensions_width_mm": 108,
@@ -2654,7 +2669,8 @@
             "url": "https://goodereader.com/blog/reviews/quirklogic-papyr-13-3-inch-e-note-hands-on-review"
         },
         {
-            "device_name": "Pocketbook Touch Lux 5",
+            "device_name": "Touch Lux 5",
+            "vendor": "PocketBook",
             "screen_size_inches": 6,
             "dimensions_length_mm": 161.3,
             "dimensions_width_mm": 108,
@@ -2774,7 +2790,8 @@
             "url": "https://goodereader.com/blog/reviews/kyocera-ky-01l-card-keitai-review"
         },
         {
-            "device_name": "Pocketbook Color",
+            "device_name": "Color",
+            "vendor": "PocketBook",
             "screen_size_inches": 6,
             "dimensions_length_mm": 161.3,
             "dimensions_width_mm": 108,
@@ -3173,7 +3190,8 @@
             "url": "https://goodereader.com/blog/reviews/tolino-epos-2-e-reader-review"
         },
         {
-            "device_name": "PocketBook InkPad X",
+            "device_name": "InkPad X",
+            "vendor": "PocketBook",
             "screen_size_inches": 10.3,
             "dimensions_length_mm": 249.2,
             "dimensions_width_mm": 173.4,
@@ -3195,7 +3213,8 @@
             "url": "https://goodereader.com/blog/electronic-readers/pocketbook-inkpad-x-review"
         },
         {
-            "device_name": "Pocketbook Touch Lux 4 Limited Edition",
+            "device_name": "Touch Lux 4 Limited Edition",
+            "vendor": "PocketBook",
             "screen_size_inches": 6,
             "dimensions_length_mm": 161.3,
             "dimensions_width_mm": 108,
@@ -3338,7 +3357,8 @@
             "url": "https://goodereader.com/blog/reviews/here-is-the-note-taking-experience-on-the-onyx-boox-max3"
         },
         {
-            "device_name": "Pocketbook InkPad Pro",
+            "device_name": "InkPad Pro",
+            "vendor": "PocketBook",
             "screen_size_inches": 7.8,
             "dimensions_length_mm": 195,
             "dimensions_width_mm": 136,
@@ -3405,6 +3425,7 @@
         },
         {
             "device_name": "Kindle Oasis 3 (10th Gen)",
+            "vendor": "Amazon",
             "screen_size_inches": 7,
             "dimensions_length_mm": 160,
             "dimensions_width_mm": 140,
@@ -3581,7 +3602,8 @@
             "url": "https://goodereader.com/blog/reviews/hands-on-review-of-the-onyx-boox-note-pro"
         },
         {
-            "device_name": "Mobiscribe E Ink Notepad",
+            "device_name": "MobiScribe 6",
+            "vendor": "MobiScribe",
             "screen_size_inches": 6.8,
             "dimensions_length_mm": null,
             "dimensions_width_mm": null,
@@ -3626,6 +3648,7 @@
         },
         {
             "device_name": "Kindle (10th Gen)",
+            "vendor": "Amazon",
             "screen_size_inches": 6,
             "dimensions_length_mm": 160,
             "dimensions_width_mm": 113,
@@ -3691,7 +3714,8 @@
             "url": "https://goodereader.com/blog/electronic-readers/onyx-boox-nova-pro-e-reader-review"
         },
         {
-            "device_name": "Pocketbook Touch HD 3",
+            "device_name": "Touch HD 3",
+            "vendor": "PocketBook",
             "screen_size_inches": 6,
             "dimensions_length_mm": 161,
             "dimensions_width_mm": 108,
@@ -3829,6 +3853,7 @@
         },
         {
             "device_name": "Kindle Paperwhite 4 (10th Gen)",
+            "vendor": "Amazon",
             "screen_size_inches": 6,
             "dimensions_length_mm": 170,
             "dimensions_width_mm": 120,
@@ -3984,7 +4009,8 @@
             "url": "https://goodereader.com/blog/electronic-readers/inkbook-lumos-e-reader-review"
         },
         {
-            "device_name": "Pocketbook Touch Lux 4",
+            "device_name": "Touch Lux 4",
+            "vendor": "PocketBook",
             "screen_size_inches": 6,
             "dimensions_length_mm": 161.3,
             "dimensions_width_mm": 108,
@@ -4197,7 +4223,8 @@
             "url": "https://goodereader.com/blog/electronic-readers/kobo-aura-one-limited-edition-32gb-review"
         },
         {
-            "device_name": "Pocketbook Touch HD 2",
+            "device_name": "Touch HD 2",
+            "vendor": "PocketBook",
             "screen_size_inches": 6,
             "dimensions_length_mm": 113.5,
             "dimensions_width_mm": 175,
@@ -4239,28 +4266,6 @@
             "color_eink_support": null,
             "released": "2017-12",
             "url": "https://goodereader.com/blog/tablet-slates/asus-zenpad-10-hands-on-review-2017"
-        },
-        {
-            "device_name": "Amazon Echo Dot",
-            "screen_size_inches": null,
-            "dimensions_length_mm": null,
-            "dimensions_width_mm": null,
-            "dimensions_depth_mm": null,
-            "weight_g": null,
-            "pixels_per_inch": null,
-            "storage_capacity_gb": null,
-            "ram_mb": null,
-            "operating_system": null,
-            "processor": null,
-            "display_technology": null,
-            "google_play_support": null,
-            "page_turn_buttons": null,
-            "display_light": null,
-            "sd_card_slot": null,
-            "speaker": true,
-            "color_eink_support": null,
-            "released": "2017-12",
-            "url": "https://goodereader.com/blog/reviews/amazon-echo-dot-review"
         },
         {
             "device_name": "Nook Glowlight 3",
@@ -4308,6 +4313,7 @@
         },
         {
             "device_name": "Kindle Oasis 2 (9th Gen)",
+            "vendor": "Amazon",
             "screen_size_inches": 7,
             "dimensions_length_mm": 160,
             "dimensions_width_mm": 140,
@@ -4505,7 +4511,8 @@
             "url": "https://goodereader.com/blog/e-paper/hands-on-review-of-the-sony-fes-watch-u"
         },
         {
-            "device_name": "Pocketbook Touch HD",
+            "device_name": "Touch HD",
+            "vendor": "PocketBook",
             "screen_size_inches": 6,
             "dimensions_length_mm": null,
             "dimensions_width_mm": null,
@@ -4572,7 +4579,8 @@
             "url": "https://goodereader.com/blog/electronic-readers/onyx-boox-max-carta-review"
         },
         {
-            "device_name": "Pocketbook Aqua 2",
+            "device_name": "Aqua 2",
+            "vendor": "PocketBook",
             "screen_size_inches": 6,
             "dimensions_length_mm": null,
             "dimensions_width_mm": null,
@@ -4881,6 +4889,7 @@
         },
         {
             "device_name": "Kindle Manga Reader",
+            "vendor": "Amazon",
             "screen_size_inches": null,
             "dimensions_length_mm": null,
             "dimensions_width_mm": null,
@@ -4969,6 +4978,7 @@
         },
         {
             "device_name": "Kindle Paperwhite",
+            "vendor": "Amazon",
             "screen_size_inches": 6,
             "dimensions_length_mm": 169,
             "dimensions_width_mm": 117,
@@ -5069,7 +5079,8 @@
             "url": "https://goodereader.com/blog/electronic-readers/bn-samsung-galaxy-tab-a-nook-review"
         },
         {
-            "device_name": "Pocketbook Touch Lux 3",
+            "device_name": "Touch Lux 3",
+            "vendor": "PocketBook",
             "screen_size_inches": 6,
             "dimensions_length_mm": null,
             "dimensions_width_mm": null,
@@ -5113,7 +5124,8 @@
             "url": "https://goodereader.com/blog/electronic-readers/apple-ipad-pro-9-7-review"
         },
         {
-            "device_name": "Amazon Kindle",
+            "device_name": "Kindle",
+            "vendor": "Amazon",
             "screen_size_inches": 6,
             "dimensions_length_mm": null,
             "dimensions_width_mm": null,
@@ -5135,7 +5147,8 @@
             "url": "https://goodereader.com/blog/electronic-readers/amazon-kindle-8th-generation-2016-review"
         },
         {
-            "device_name": "Amazon Kindle Oasis",
+            "device_name": "Kindle Oasis",
+            "vendor": "Amazon",
             "screen_size_inches": 6,
             "dimensions_length_mm": null,
             "dimensions_width_mm": null,
@@ -5259,28 +5272,6 @@
             "url": "https://goodereader.com/blog/e-book-news/book-review-future-crimes"
         },
         {
-            "device_name": "Kindle",
-            "screen_size_inches": 0,
-            "dimensions_length_mm": 0,
-            "dimensions_width_mm": 0,
-            "dimensions_depth_mm": 0,
-            "weight_g": 0,
-            "pixels_per_inch": 0,
-            "storage_capacity_gb": 0,
-            "ram_mb": 0,
-            "operating_system": "Kindle OS",
-            "processor": "",
-            "display_technology": "",
-            "google_play_support": false,
-            "page_turn_buttons": false,
-            "display_light": false,
-            "sd_card_slot": false,
-            "speaker": false,
-            "color_eink_support": false,
-            "released": "2016-02",
-            "url": "https://goodereader.com/blog/electronic-readers/old-amazon-e-readers-need-a-new-update-or-they-will-stop-working"
-        },
-        {
             "device_name": "Inkbook Obsidian",
             "screen_size_inches": 6,
             "dimensions_length_mm": null,
@@ -5376,6 +5367,7 @@
         },
         {
             "device_name": "Kindle Paperwhite 3",
+            "vendor": "Amazon",
             "screen_size_inches": 6,
             "dimensions_length_mm": 169,
             "dimensions_width_mm": 117,
@@ -5397,7 +5389,8 @@
             "url": "https://goodereader.com/blog/electronic-readers/amazon-kindle-paperwhite-3-review"
         },
         {
-            "device_name": "Pocketbook Sense",
+            "device_name": "Sense",
+            "vendor": "PocketBook",
             "screen_size_inches": 0,
             "dimensions_length_mm": 0,
             "dimensions_width_mm": 0,
@@ -5625,6 +5618,7 @@
         },
         {
             "device_name": "Kindle Basic",
+            "vendor": "Amazon",
             "screen_size_inches": 6,
             "dimensions_length_mm": null,
             "dimensions_width_mm": null,
@@ -5646,7 +5640,8 @@
             "url": "https://goodereader.com/blog/electronic-readers/amazon-kindle-basic-2014-review"
         },
         {
-            "device_name": "Pocketbook Ultra",
+            "device_name": "Ultra",
+            "vendor": "PocketBook",
             "screen_size_inches": 6,
             "dimensions_length_mm": null,
             "dimensions_width_mm": null,
@@ -5868,6 +5863,7 @@
         },
         {
             "device_name": "Kindle DX",
+            "vendor": "Amazon",
             "screen_size_inches": 9.7,
             "dimensions_length_mm": null,
             "dimensions_width_mm": null,
@@ -6044,6 +6040,7 @@
         },
         {
             "device_name": "Kindle Paperwhite 2",
+            "vendor": "Amazon",
             "screen_size_inches": 6,
             "dimensions_length_mm": null,
             "dimensions_width_mm": null,
@@ -6285,7 +6282,8 @@
             "url": "https://goodereader.com/blog/technology/review-of-the-seiko-spirit-sbpa003-e-ink-watch"
         },
         {
-            "device_name": "Pocketbook Color Lux",
+            "device_name": "Color Lux",
+            "vendor": "PocketBook",
             "screen_size_inches": 8,
             "dimensions_length_mm": null,
             "dimensions_width_mm": null,
@@ -6593,7 +6591,8 @@
             "url": "https://goodereader.com/blog/electronic-readers/kobo-arc-review"
         },
         {
-            "device_name": "Amazon Kindle 4th generation",
+            "device_name": "Kindle 4th generation",
+            "vendor": "Amazon",
             "screen_size_inches": 0,
             "dimensions_length_mm": 0,
             "dimensions_width_mm": 0,
@@ -6615,7 +6614,8 @@
             "url": "https://goodereader.com/blog/electronic-readers/review-of-the-amazon-kindle-5-2012-edition"
         },
         {
-            "device_name": "Amazon Kindle Paperwhite",
+            "device_name": "Kindle Paperwhite",
+            "vendor": "Amazon",
             "screen_size_inches": 6,
             "dimensions_length_mm": null,
             "dimensions_width_mm": null,
@@ -6857,7 +6857,8 @@
             "url": "https://goodereader.com/blog/electronic-readers/sony-prs-t2-ereader-review"
         },
         {
-            "device_name": "Pocketbook A10",
+            "device_name": "A10",
+            "vendor": "PocketBook",
             "screen_size_inches": 10,
             "dimensions_length_mm": null,
             "dimensions_width_mm": null,
@@ -7046,7 +7047,8 @@
             "url": "https://goodereader.com/blog/electronic-readers/hands-on-review-of-the-skytex-skypad-alpha-2"
         },
         {
-            "device_name": "Amazon Kindle 6",
+            "device_name": "Kindle 6",
+            "vendor": "Amazon",
             "screen_size_inches": 6,
             "dimensions_length_mm": null,
             "dimensions_width_mm": null,
@@ -7134,7 +7136,8 @@
             "url": "https://goodereader.com/blog/electronic-readers/hands-on-review-of-the-bebook-club-s"
         },
         {
-            "device_name": "Pocketbook 912 PRO",
+            "device_name": "912 PRO",
+            "vendor": "PocketBook",
             "screen_size_inches": 9.7,
             "dimensions_length_mm": null,
             "dimensions_width_mm": null,
@@ -7156,7 +7159,8 @@
             "url": "https://goodereader.com/blog/electronic-readers/pocketbook-912-pro-e-reader-review"
         },
         {
-            "device_name": "Pocketbook 612",
+            "device_name": "612",
+            "vendor": "PocketBook",
             "screen_size_inches": 6,
             "dimensions_length_mm": null,
             "dimensions_width_mm": null,
@@ -7223,6 +7227,7 @@
         },
         {
             "device_name": "Kindle",
+            "vendor": "Amazon",
             "screen_size_inches": 6,
             "dimensions_length_mm": null,
             "dimensions_width_mm": null,
@@ -7398,7 +7403,8 @@
             "url": "https://goodereader.com/blog/electronic-readers/skytex-primer-colour-ereader-review"
         },
         {
-            "device_name": "Amazon Kindle",
+            "device_name": "Kindle",
+            "vendor": "Amazon",
             "screen_size_inches": 6,
             "dimensions_length_mm": null,
             "dimensions_width_mm": null,
@@ -7574,7 +7580,8 @@
             "url": "https://goodereader.com/blog/electronic-readers/alurateks-full-line-of-libre-e-readers"
         },
         {
-            "device_name": "Pocketbook 360 Plus",
+            "device_name": "360 Plus",
+            "vendor": "PocketBook",
             "screen_size_inches": 5,
             "dimensions_length_mm": null,
             "dimensions_width_mm": null,
@@ -7728,7 +7735,8 @@
             "url": "https://goodereader.com/blog/electronic-readers/hands-on-review-of-the-entourage-pocket-edge-e-reader"
         },
         {
-            "device_name": "Pocketbook 902 PRO",
+            "device_name": "902 PRO",
+            "vendor": "PocketBook",
             "screen_size_inches": 9.7,
             "dimensions_length_mm": null,
             "dimensions_width_mm": null,
@@ -7750,7 +7758,8 @@
             "url": "https://goodereader.com/blog/electronic-readers/hands-on-review-of-the-pocketbook-pro-902-9-7-inch-e-reader"
         },
         {
-            "device_name": "Pocketbook IQ 701",
+            "device_name": "IQ 701",
+            "vendor": "PocketBook",
             "screen_size_inches": 0,
             "dimensions_length_mm": 0,
             "dimensions_width_mm": 0,
@@ -7886,7 +7895,8 @@
             "url": "https://goodereader.com/blog/electronic-readers/review-of-the-sony-prs-650-touch-edition-e-reader"
         },
         {
-            "device_name": "Amazon Kindle Keyboard",
+            "device_name": "Kindle Keyboard",
+            "vendor": "Amazon",
             "screen_size_inches": 6,
             "dimensions_length_mm": 190.5,
             "dimensions_width_mm": 121.92,
@@ -7952,7 +7962,8 @@
             "url": "https://goodereader.com/blog/electronic-readers/review-of-the-sony-prs-350-pocket-edition"
         },
         {
-            "device_name": "Amazon Kindle 3 Graphite DX E-Reader",
+            "device_name": "Kindle 3 Graphite DX E-Reader",
+            "vendor": "Amazon",
             "screen_size_inches": 9.7,
             "dimensions_length_mm": null,
             "dimensions_width_mm": null,
@@ -7997,6 +8008,7 @@
         },
         {
             "device_name": "Kindle 2",
+            "vendor": "Amazon",
             "screen_size_inches": 6,
             "dimensions_length_mm": 0,
             "dimensions_width_mm": 0,
@@ -8387,6 +8399,7 @@
         },
         {
             "device_name": "Kindle DX",
+            "vendor": "Amazon",
             "screen_size_inches": 9.7,
             "dimensions_length_mm": null,
             "dimensions_width_mm": null,
