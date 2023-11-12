@@ -61,7 +61,16 @@
             <div class="card" v-for="reader in filteredReaders">
                 <h3>{{ reader.device_name }}</h3>
                 <div style="display: flex; align-items: center; justify-content: center; width: 100%; height: 150px;">
-                    <div class="ereader-rectangle" :style="{ width: calculateWidth(reader.dimensions_width_mm) + 'px', height: calculateHeight(reader.dimensions_length_mm) + 'px' }"></div>
+                    <svg width="140" height="140" xmlns="http://www.w3.org/2000/svg">
+                      <!-- E-reader rectangle -->
+                      <rect :x="creditCardWidth" :y="0" :width="calculateWidth(reader.dimensions_width_mm)" :height="calculateHeight(reader.dimensions_length_mm)" style="fill:lightblue; stroke:black; stroke-width:1" />
+                      <!-- Credit card rectangle for comparison -->
+                      <rect x="0" y="0" :width="creditCardWidth" :height="creditCardHeight" style="fill:lightgrey; stroke:black; stroke-width:1" />
+                      <rect x="0" y="3" :width="creditCardWidth" :height="4" style="fill:black; stroke:black; stroke-width:1" />
+                      <rect x="3" y="9.5" width="15" height="10" fill="silver" />
+                      <circle cx="28" cy="14" r="5" fill="gold" />
+                      <text x="26" y="16.7" fill="black" font-family="Arial" font-size="8px">$</text>
+                    </svg>
                 </div>
                 <table>
                     <tr>
@@ -172,17 +181,25 @@
             
                         return screen_size_filter && os_filter && page_turn_buttons_filter && google_play_support_filter;
                     });
+                },
+                creditCardWidth() {
+                  const scaleFactor = 0.4; // Adjust as needed
+                  return 85.60 * scaleFactor;
+                },
+                creditCardHeight() {
+                    const scaleFactor = 0.4; // Adjust as needed
+                    return 53.98 * scaleFactor;
                 }
             },
             methods: {
-                calculateWidth(width) {
-                    const scaleFactor = 0.4; // Adjust this scale factor as needed
-                    return width ? width * scaleFactor : 2; // Default width if null
-                },
-                calculateHeight(length) {
-                    const scaleFactor = 0.4; // Adjust this scale factor as needed
-                    return length ? length * scaleFactor : 2; // Default height if null
-                }
+              calculateWidth(width) {
+                const scaleFactor = 0.4; // Adjust this scale factor as needed
+                return width ? width * scaleFactor : 2; // Default width if null
+              },
+              calculateHeight(length) {
+                  const scaleFactor = 0.4; // Adjust this scale factor as needed
+                  return length ? length * scaleFactor : 2; // Default height if null
+              }
             }
             
         });
