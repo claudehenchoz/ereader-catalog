@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eReader Display</title>
+    <style>
+        body { font-family: Arial, sans-serif; }
+        .container { display: flex; flex-wrap: wrap; justify-content: space-around; }
+        .card { box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); transition: 0.3s; width: 300px; margin: 10px; padding: 20px; }
+        .filter { margin: 10px; display: flex; align-items: center; }
+        .filter input, .filter select { padding: 10px; margin-right: 10px; }
+        .range-values { margin: 0 10px; }
+        .ereader-rectangle {
+            border: 1px solid black; /* or any style you prefer */
+            margin: 10px auto;
+        }
+    </style>
+</head>
+<body>
+    <div id="app">
+        <h1>eReader Catalog</h1>
+        <div class="filter">
+            <label for="screen-size-range">Screen Size (inches):</label>
+            <input type="range" id="screen-size-range-min" v-model="filters.screen_size_inches_min" min="0" max="20" step="0.1">
+            <input type="range" id="screen-size-range-max" v-model="filters.screen_size_inches_max" min="0" max="20" step="0.1">
+            <span class="range-values">{{ filters.screen_size_inches_min }} - {{ filters.screen_size_inches_max }} inches</span>
+
+            <label for="os-dropdown">Operating System:</label>
+            <select id="os-dropdown" v-model="filters.operating_system">
+                <option value="">Any OS</option>
+                <option v-for="os in uniqueOperatingSystems" :value="os">{{ os }}</option>
+            </select>
+
+            <label for="page-turn-buttons-dropdown">Page Turn Buttons:</label>
+            <select id="page-turn-buttons-dropdown" v-model="filters.page_turn_buttons">
+                <option :value="null">Any</option>
+                <option :value="true">Yes</option>
+                <option :value="false">No</option>
+            </select>
+
+            <label for="google-play-support-dropdown">Google Play Support:</label>
+            <select id="google-play-support-dropdown" v-model="filters.google_play_support">
+                <option :value="null">Any</option>
+                <option :value="true">Yes</option>
+                <option :value="false">No</option>
+            </select>
+            <!-- Additional filters can be added similarly -->
+        </div>
+        <div class="container">
+            <div class="card" v-for="reader in filteredReaders">
+                <h3>{{ reader.device_name }}</h3>
+                <div class="ereader-rectangle" :style="{ width: calculateWidth(reader.dimensions_width_mm) + 'px', height: calculateHeight(reader.dimensions_length_mm) + 'px' }"></div>
+                <p><strong>Screen Size:</strong> {{ reader.screen_size_inches }} inches</p>
+                <p><strong>OS:</strong> {{ reader.operating_system }}</p>
+                <!-- Display all other properties -->
+                <a :href="reader.url" target="_blank">More Info</a>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.min.js"></script>
+    <script>
+        new Vue({
+            el: '#app',
+            data: {
+                filters: {
+                    screen_size_inches_min: 0,
+                    screen_size_inches_max: 20,
+                    operating_system: '',
+                    page_turn_buttons: null,
+                    google_play_support: null,
+                    // Other range filters can be initialized here
+                },
+                readers: [], // This will be populated with the JSON data
+                uniqueOperatingSystems: [] // To store unique operating systems
+            },
+            mounted() {
+                fetch('ereaders.json') // Load the JSON data
+                    .then(response => response.json())
+                    .then(data => {
+                        this.readers = data.data;
+                        this.uniqueOperatingSystems = [...new Set(data.data.map(reader => reader.operating_system))];
+                    });
+            },
+            computed: {
+                filteredReaders() {
+                    return this.readers.filter(reader => {
+                        const screen_size_filter = reader.screen_size_inches >= this.filters.screen_size_inches_min &&
+                                                   reader.screen_size_inches <= this.filters.screen_size_inches_max;
+                        const os_filter = this.filters.operating_system === '' || reader.operating_system === this.filters.operating_system;
+                        const page_turn_buttons_filter = this.filters.page_turn_buttons === null || 
+                                                         reader.page_turn_buttons === this.filters.page_turn_buttons;
+                        const google_play_support_filter = this.filters.google_play_support === null || 
+                                                         reader.google_play_support === this.filters.google_play_support;
+            
+                        return screen_size_filter && os_filter && page_turn_buttons_filter && google_play_support_filter;
+                    });
+                }
+            },
+            methods: {
+                calculateWidth(width) {
+                    const scaleFactor = 0.4; // Adjust this scale factor as needed
+                    return width ? width * scaleFactor : 2; // Default width if null
+                },
+                calculateHeight(length) {
+                    const scaleFactor = 0.4; // Adjust this scale factor as needed
+                    return length ? length * scaleFactor : 2; // Default height if null
+                }
+            }
+            
+        });
+    </script>
+</body>
+</html>
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/vue@2.7.15/dist/vue.min.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
